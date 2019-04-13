@@ -13,6 +13,10 @@ class Det {
         this.array = array;
     }
 
+    level() {
+        return this.array.length;
+    }
+
     // 计算行列式
     calc() {
         let level = this.array.length;
